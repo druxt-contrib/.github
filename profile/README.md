@@ -11,18 +11,20 @@
 Modules that extend [Druxt](https://druxtjs.org), the fully decoupled Drupal
 framework, beyond what the core packages cover.
 
-Each one pairs a Drupal contrib module with the Vue components that render it,
+Each one pairs a Drupal module with the Vue components that render it,
 so a feature your editors already use in Drupal keeps working once the frontend
 is Nuxt. They are separate packages: install only the ones you need, alongside
 `druxt-site` or a Nuxt project you already have.
 
 ## Modules
 
-| Module | Package | Renders |
-| ------ | ------- | ------- |
-| [druxt-config-pages](https://github.com/druxt-contrib/druxt-config-pages) | [![npm](https://img.shields.io/npm/v/@druxt-contrib/config-pages?label=%40druxt-contrib%2Fconfig-pages&color=00a4d3)](https://www.npmjs.com/package/@druxt-contrib/config-pages) | [Config Pages](https://www.drupal.org/project/config_pages) as Druxt components |
-| [druxt-layout-paragraphs](https://github.com/druxt-contrib/druxt-layout-paragraphs) | [![npm](https://img.shields.io/npm/v/druxt-layout-paragraphs?label=druxt-layout-paragraphs&color=00a4d3)](https://www.npmjs.com/package/druxt-layout-paragraphs) | [Layout Paragraphs](https://www.drupal.org/project/layout_paragraphs) layouts |
-| [druxt-layout-builder](https://github.com/druxt-contrib/druxt-layout-builder) | not yet released | [Layout Builder](https://www.drupal.org/docs/8/core/modules/layout-builder) sections |
+| Module | Stable | Dev | Renders |
+| ------ | ------ | --- | ------- |
+| [druxt-ckeditor](https://github.com/druxt-contrib/druxt-ckeditor) | not yet released | none | Drupal's own [CKEditor 5](https://www.drupal.org/docs/core-modules-and-themes/core-modules/ckeditor-5-module) build, mounted on a field |
+| [druxt-config-pages](https://github.com/druxt-contrib/druxt-config-pages) | [![npm](https://img.shields.io/npm/v/@druxt-contrib/config-pages?label=%40druxt-contrib%2Fconfig-pages&color=00a4d3)](https://www.npmjs.com/package/@druxt-contrib/config-pages) | none | [Config Pages](https://www.drupal.org/project/config_pages) as Druxt components |
+| [druxt-layout-builder](https://github.com/druxt-contrib/druxt-layout-builder) | not yet released | none | [Layout Builder](https://www.drupal.org/docs/8/core/modules/layout-builder) sections |
+| [druxt-layout-paragraphs](https://github.com/druxt-contrib/druxt-layout-paragraphs) | [![npm](https://img.shields.io/npm/v/druxt-layout-paragraphs?label=druxt-layout-paragraphs&color=00a4d3)](https://www.npmjs.com/package/druxt-layout-paragraphs) | none | [Layout Paragraphs](https://www.drupal.org/project/layout_paragraphs) layouts |
+| [druxt-node-preview](https://github.com/druxt-contrib/druxt-node-preview) | not yet released | [![npm@dev](https://img.shields.io/npm/v/@druxt-contrib/node-preview/dev?label=%40druxt-contrib%2Fnode-preview%40dev&color=7c4dff)](https://www.npmjs.com/package/@druxt-contrib/node-preview/v/dev) | An unsaved node, through [JSON:API Node Preview](https://www.drupal.org/project/jsonapi_node_preview) and [Consumer Node Preview](https://www.drupal.org/project/consumer_node_preview) |
 
 ## Install
 
@@ -32,6 +34,12 @@ npm install @druxt-contrib/config-pages
 
 Then add it to `modules` in `nuxt.config.js`, the same way as any other Druxt
 module. Each repository's README covers its own options.
+
+A module with a dev build and no stable release installs from the `dev` tag:
+
+```sh
+npm install @druxt-contrib/node-preview@dev
+```
 
 ## Building your own
 
