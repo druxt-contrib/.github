@@ -18,13 +18,13 @@ is Nuxt. They are separate packages: install only the ones you need, alongside
 
 ## Modules
 
-| Module | Stable | Dev | Renders |
-| ------ | ------ | --- | ------- |
-| [druxt-ckeditor](https://github.com/druxt-contrib/druxt-ckeditor) | not yet released | none | Drupal's own [CKEditor 5](https://www.drupal.org/docs/core-modules-and-themes/core-modules/ckeditor-5-module) build, mounted on a field |
-| [druxt-config-pages](https://github.com/druxt-contrib/druxt-config-pages) | [![npm](https://img.shields.io/npm/v/@druxt-contrib/config-pages?label=%40druxt-contrib%2Fconfig-pages&color=00a4d3)](https://www.npmjs.com/package/@druxt-contrib/config-pages) | none | [Config Pages](https://www.drupal.org/project/config_pages) as Druxt components |
-| [druxt-layout-builder](https://github.com/druxt-contrib/druxt-layout-builder) | not yet released | none | [Layout Builder](https://www.drupal.org/docs/8/core/modules/layout-builder) sections |
-| [druxt-layout-paragraphs](https://github.com/druxt-contrib/druxt-layout-paragraphs) | [![npm](https://img.shields.io/npm/v/druxt-layout-paragraphs?label=druxt-layout-paragraphs&color=00a4d3)](https://www.npmjs.com/package/druxt-layout-paragraphs) | none | [Layout Paragraphs](https://www.drupal.org/project/layout_paragraphs) layouts |
-| [druxt-node-preview](https://github.com/druxt-contrib/druxt-node-preview) | not yet released | [![npm@dev](https://img.shields.io/npm/v/@druxt-contrib/node-preview/dev?label=%40druxt-contrib%2Fnode-preview%40dev&color=7c4dff)](https://www.npmjs.com/package/@druxt-contrib/node-preview/v/dev) | An unsaved node, through [JSON:API Node Preview](https://www.drupal.org/project/jsonapi_node_preview) and [Consumer Node Preview](https://www.drupal.org/project/consumer_node_preview) |
+| Module | Release | Renders |
+| ------ | ------- | ------- |
+| [druxt-ckeditor](https://github.com/druxt-contrib/druxt-ckeditor) | not yet released | Drupal's own [CKEditor 5](https://www.drupal.org/docs/core-modules-and-themes/core-modules/ckeditor-5-module) build, mounted on a field |
+| [druxt-config-pages](https://github.com/druxt-contrib/druxt-config-pages) | [![npm](https://img.shields.io/npm/v/@druxt-contrib/config-pages?label=npm&color=00a4d3)](https://www.npmjs.com/package/@druxt-contrib/config-pages) | [Config Pages](https://www.drupal.org/project/config_pages) as Druxt components |
+| [druxt-layout-builder](https://github.com/druxt-contrib/druxt-layout-builder) | not yet released | [Layout Builder](https://www.drupal.org/docs/8/core/modules/layout-builder) sections |
+| [druxt-layout-paragraphs](https://github.com/druxt-contrib/druxt-layout-paragraphs) | [![npm](https://img.shields.io/npm/v/druxt-layout-paragraphs?label=npm&color=00a4d3)](https://www.npmjs.com/package/druxt-layout-paragraphs) | [Layout Paragraphs](https://www.drupal.org/project/layout_paragraphs) layouts |
+| [druxt-node-preview](https://github.com/druxt-contrib/druxt-node-preview) | [![dev](https://img.shields.io/npm/v/@druxt-contrib/node-preview/dev?label=dev&color=7c4dff)](https://www.npmjs.com/package/@druxt-contrib/node-preview/v/dev) | An unsaved node, through [JSON:API Node Preview](https://www.drupal.org/project/jsonapi_node_preview) and [Consumer Node Preview](https://www.drupal.org/project/consumer_node_preview) |
 
 ## Install
 
