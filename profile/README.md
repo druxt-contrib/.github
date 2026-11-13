@@ -24,7 +24,7 @@ is Nuxt. They are separate packages: install only the ones you need, alongside
 | [druxt-config-pages](https://github.com/druxt-contrib/druxt-config-pages) | [![@druxt-contrib/config-pages on npm](https://img.shields.io/npm/v/@druxt-contrib/config-pages?label=npm&color=00a4d3)](https://www.npmjs.com/package/@druxt-contrib/config-pages) | [Config Pages](https://www.drupal.org/project/config_pages) as Druxt components |
 | [druxt-layout-builder](https://github.com/druxt-contrib/druxt-layout-builder) | not yet released | [Layout Builder](https://www.drupal.org/docs/8/core/modules/layout-builder) sections |
 | [druxt-layout-paragraphs](https://github.com/druxt-contrib/druxt-layout-paragraphs) | [![druxt-layout-paragraphs on npm](https://img.shields.io/npm/v/druxt-layout-paragraphs?label=npm&color=00a4d3)](https://www.npmjs.com/package/druxt-layout-paragraphs) | [Layout Paragraphs](https://www.drupal.org/project/layout_paragraphs) layouts |
-| [druxt-node-preview](https://github.com/druxt-contrib/druxt-node-preview) | [![@druxt-contrib/node-preview dev build on npm](https://img.shields.io/npm/v/@druxt-contrib/node-preview/dev?label=dev&color=7c4dff)](https://www.npmjs.com/package/@druxt-contrib/node-preview/v/dev) | An unsaved node, through [JSON:API Node Preview](https://www.drupal.org/project/jsonapi_node_preview) and [Consumer Node Preview](https://www.drupal.org/project/consumer_node_preview) |
+| [druxt-node-preview](https://github.com/druxt-contrib/druxt-node-preview) | [![@druxt-contrib/node-preview on npm](https://img.shields.io/npm/v/@druxt-contrib/node-preview?label=npm&color=00a4d3)](https://www.npmjs.com/package/@druxt-contrib/node-preview) | An unsaved node, through [JSON:API Node Preview](https://www.drupal.org/project/jsonapi_node_preview) and [Consumer Node Preview](https://www.drupal.org/project/consumer_node_preview) |
 
 ## Install
 
@@ -35,7 +35,8 @@ npm install @druxt-contrib/config-pages
 Then add it to `modules` in `nuxt.config.js`, the same way as any other Druxt
 module. Each repository's README covers its own options.
 
-A module with a dev build and no stable release installs from the `dev` tag:
+Some modules publish a dev build as well, either alongside their releases or
+ahead of a first one. Install that from the `dev` tag:
 
 ```sh
 npm install @druxt-contrib/node-preview@dev
