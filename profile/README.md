@@ -20,6 +20,7 @@ is Nuxt. They are separate packages: install only the ones you need, alongside
 
 | Module | Release | Renders |
 | ------ | ------- | ------- |
+| [druxt-canvas](https://github.com/druxt-contrib/druxt-canvas) | [![@druxt-contrib/canvas on npm](https://img.shields.io/npm/v/@druxt-contrib/canvas?label=npm&color=00a4d3)](https://www.npmjs.com/package/@druxt-contrib/canvas) | [Drupal Canvas](https://www.drupal.org/project/canvas) pages, each component through a Vue wrapper of your own |
 | [druxt-ckeditor](https://github.com/druxt-contrib/druxt-ckeditor) | not yet released | Drupal's own [CKEditor 5](https://www.drupal.org/docs/core-modules-and-themes/core-modules/ckeditor-5-module) build, mounted on a field |
 | [druxt-config-pages](https://github.com/druxt-contrib/druxt-config-pages) | [![@druxt-contrib/config-pages on npm](https://img.shields.io/npm/v/@druxt-contrib/config-pages?label=npm&color=00a4d3)](https://www.npmjs.com/package/@druxt-contrib/config-pages) | [Config Pages](https://www.drupal.org/project/config_pages) as Druxt components |
 | [druxt-layout-builder](https://github.com/druxt-contrib/druxt-layout-builder) | not yet released | [Layout Builder](https://www.drupal.org/docs/8/core/modules/layout-builder) sections |
